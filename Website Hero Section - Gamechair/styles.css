@@ -1,0 +1,70 @@
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif; /* Use a simple, readable font */
+    background-color: #f4f4f4; /* Light grey background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styling for the hero section */
+.hero {
+    text-align: center; /* Center-align all text and elements inside the hero section */
+    padding: 50px 20px; /* Space inside the hero section */
+    background-color: #e0dcd5; /* Neutral earthy background color */
+    color: #333; /* Dark grey text color for contrast */
+}
+
+/* Styling for the image container */
+.image-container {
+    display: inline-block; /* Align the image container inline */
+    border-radius: 50%; /* Make the image container spherical */
+    overflow: hidden; /* Ensure the image fits within the spherical shape */
+    width: 200px; /* Set a fixed width for the spherical image */
+    height: 200px; /* Set a fixed height to match the width */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* Styling for the image inside the container */
+.image-container img {
+    width: 100%; /* Ensure the image covers the entire width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+/* Styling for the main heading */
+.hero h1 {
+    font-size: 2.5em; /* Large font size for the main heading */
+    margin: 10px 0; /* Space above and below the heading */
+    color: #2c3e50; /* Darker shade for the heading to stand out */
+}
+
+/* Styling for the subheading */
+.hero h2 {
+    font-size: 1.5em; /* Medium font size for the subheading */
+    margin: 10px 0; /* Space above and below the subheading */
+    color: #34495e; /* Slightly lighter color than the main heading */
+}
+
+/* Styling for the short description */
+.hero p {
+    font-size: 1em; /* Standard font size for the paragraph */
+    margin: 20px 0; /* Space above and below the paragraph */
+    line-height: 1.6; /* Increase line spacing for better readability */
+}
+
+/* Styling for the call-to-action button */
+.cta-button {
+    display: inline-block; /* Align the button inline */
+    background-color: #16a085; /* Teal background color for the button */
+    color: white; /* White text color for contrast */
+    padding: 10px 20px; /* Space inside the button */
+    border-radius: 5px; /* Slightly rounded corners */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 1em; /* Standard font size for the button text */
+    margin-top: 10px; /* Space above the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the call-to-action button */
+.cta-button:hover {
+    background-color: #1abc9c; /* Brighter teal color when hovered */
+}

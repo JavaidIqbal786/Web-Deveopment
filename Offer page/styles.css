@@ -1,0 +1,70 @@
+/* Light background color for the entire page */
+body {
+    background-color: #f0f8ff; /* Light body background for a soft look */
+    font-family: Arial, sans-serif; /* Simple and readable font */
+    display: flex; /* Centering form horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Removing default margin */
+}
+
+/* Container for the form with a white background */
+.form-container {
+    background-color: #ffffff; /* White background for form container */
+    padding: 20px; /* Space around the content inside the container */
+    border-radius: 8px; /* Rounded corners for a smooth appearance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center; /* Centering text inside the container */
+    max-width: 400px; /* Limiting the width of the form container */
+    width: 100%;
+}
+
+/* Styling the product image */
+.product-image {
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 20px; /* Horizontally center the image */
+    border: 3px solid #0437F2;
+}
+
+/* Styling the heading */
+.product-heading {
+    color: #0437F2; /* Blue color for the heading */
+    font-size: 24px; /* Larger font size for emphasis */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Styling the description paragraph */
+.product-description {
+    color: #333333; /* Dark gray color for readability */
+    font-size: 16px; /* Normal font size */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Styling the subscription form */
+.subscription-form input[type="email"] {
+    width: calc(100% - 20px); /* Full width of input minus padding */
+    padding: 10px; /* Space inside the input field */
+    border: 2px solid #0437F2; /* Blue border for the input */
+    border-radius: 4px; /* Slightly rounded corners for the input */
+    margin-bottom: 15px; /* Space below the input field */
+    font-size: 16px; /* Font size inside the input field */
+}
+
+/* Styling the submit button */
+.subscription-form button {
+    background-color: #0437F2; /* Blue background for the button */
+    color: #ffffff; /* White text on the button */
+    padding: 10px 20px; /* Space inside the button */
+    border: none; /* Removing default border */
+    border-radius: 4px; /* Slightly rounded corners for the button */
+    font-size: 16px; /* Font size inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button hover effect */
+.subscription-form button:hover {
+    background-color: #0096FF; /* Slightly darker blue on hover */
+}

@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Style the body with a nice background color and center the text */
+body {
+    background-color: #e0ffe0; /* Light green color */
+    text-align: center; /* Center all text */
+    font-family: Arial, sans-serif; /* Set a simple font */
+}
+
+/* Style the main title */
+h1 {
+    color: #4CAF50; /* Green color */
+    font-size: 36px; /* Large text size */
+    margin-top: 20px; /* Add some space at the top */
+}
+
+/* Style the plant section */
+#plant-section {
+    background-color: #f9f9f9; /* Light gray background */
+    border: 2px solid #4CAF50; /* Green border */
+    display: inline-block; /* Keep the section narrow */
+    padding: 20px; /* Add padding around the content */
+    margin: 20px; /* Add space around the section */
+}
+
+/* Style the list of plants */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    font-size: 18px; /* Make text larger */
+    color: #333; /* Dark gray color */
+}
+
+/* Style the water button */
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding inside the button */
+    font-size: 16px; /* Set text size */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Round the corners */
+    cursor: pointer; /* Change cursor to pointer when hovered */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+/* Style the message area */
+#message {
+    color: #ff6347; /* Red color */
+    font-size: 20px; /* Larger text size */
+    margin-top: 20px; /* Add space above the message */
+}
