@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 80%;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+h3{
+    margin-top: 3rem; 
+}
+.button:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#white {
+    background-color: white;
+}
