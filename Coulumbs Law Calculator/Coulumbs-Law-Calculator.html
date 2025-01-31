@@ -38,13 +38,13 @@
 <body>
     <div class="container">
         <h2>Coulomb's Law Calculator</h2>
-        <label>Charge 1 (q1 in C): <input type="number" id="q1" placeholder="Enter q1 or leave empty"></label>
+        <label>Charge 1 (q1 in C): <input type="text" id="q1" placeholder="e.g., 3e-6"></label>
         <br>
-        <label>Charge 2 (q2 in C): <input type="number" id="q2" placeholder="Enter q2 or leave empty"></label>
+        <label>Charge 2 (q2 in C): <input type="text" id="q2" placeholder="e.g., 5e-6"></label>
         <br>
-        <label>Distance (r in m): <input type="number" id="r" placeholder="Enter r or leave empty"></label>
+        <label>Distance (r in m): <input type="text" id="r" placeholder="e.g., 0.2"></label>
         <br>
-        <label>Force (F in N): <input type="number" id="f" placeholder="Enter F or leave empty"></label>
+        <label>Force (F in N): <input type="text" id="f" placeholder="Leave empty to calculate"></label>
         <br>
         <button onclick="calculate()">Calculate</button>
         <h3 id="result"></h3>
@@ -52,13 +52,13 @@
 
     <script>
         function calculate() {
-            const k = 9 * Math.pow(10, 9);
+            const k = 9 * Math.pow(10, 9); // Coulomb's constant
             let q1 = document.getElementById("q1").value;
             let q2 = document.getElementById("q2").value;
             let r = document.getElementById("r").value;
             let f = document.getElementById("f").value;
             
-            // Convert values to float if provided
+            // Convert input to float, including scientific notation (e.g., 3e-6)
             q1 = q1 ? parseFloat(q1) : null;
             q2 = q2 ? parseFloat(q2) : null;
             r = r ? parseFloat(r) : null;
